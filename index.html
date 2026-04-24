@@ -141,3 +141,231 @@ header p {
   </div>
 </body>
 </html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rupa Tourism</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f5f7fa;
+    color:#333;
+}
+
+header{
+    background:linear-gradient(to right,#0099cc,#006699);
+    color:white;
+    padding:20px;
+    text-align:center;
+}
+
+header h1{
+    font-size:38px;
+}
+
+nav{
+    background:#004466;
+    padding:12px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:bold;
+}
+
+.hero{
+    background:url('https://images.unsplash.com/photo-1506744038136-46273834b3fb') center/cover;
+    height:400px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    text-align:center;
+}
+
+.hero h2{
+    font-size:45px;
+    background:rgba(0,0,0,0.5);
+    padding:15px 25px;
+    border-radius:10px;
+}
+
+section{
+    padding:40px 8%;
+}
+
+.section-title{
+    text-align:center;
+    font-size:32px;
+    margin-bottom:30px;
+    color:#006699;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:white;
+    border-radius:12px;
+    overflow:hidden;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card img{
+    width:100%;
+    height:180px;
+    object-fit:cover;
+}
+
+.card-content{
+    padding:18px;
+}
+
+.card-content h3{
+    margin-bottom:10px;
+    color:#004466;
+}
+
+footer{
+    background:#00334d;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:30px;
+}
+
+button{
+    background:#0099cc;
+    color:white;
+    border:none;
+    padding:10px 18px;
+    margin-top:10px;
+    border-radius:6px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#0077aa;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Rupa Tourism</h1>
+    <p>Explore Beautiful Rupa - Tourist Places, Hotels & Lodges</p>
+</header>
+
+<nav>
+    <a href="#places">Tourist Places</a>
+    <a href="#hotels">Hotels</a>
+    <a href="#lodges">Lodges</a>
+</nav>
+
+<div class="hero">
+    <h2>Welcome to Rupa Paradise</h2>
+</div>
+
+<section id="places">
+    <h2 class="section-title">Tourist Places</h2>
+    <div class="cards">
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee">
+            <div class="card-content">
+                <h3>Buddhist Monastery</h3>
+                <p>Peaceful and scenic monastery in Rupa hills.</p>
+                <button>Explore</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470">
+            <div class="card-content">
+                <h3>Mountain View Point</h3>
+                <p>Enjoy breathtaking valley views.</p>
+                <button>Explore</button>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section id="hotels">
+    <h2 class="section-title">Hotels</h2>
+    <div class="cards">
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945">
+            <div class="card-content">
+                <h3>Hotel Rupa Palace</h3>
+                <p>Luxury stay with modern amenities.</p>
+                <button>Book Now</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b">
+            <div class="card-content">
+                <h3>Hill View Resort</h3>
+                <p>Comfortable stay with scenic balcony views.</p>
+                <button>Book Now</button>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section id="lodges">
+    <h2 class="section-title">Lodges</h2>
+    <div class="cards">
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1522708323590-d24dbb6b0267">
+            <div class="card-content">
+                <h3>Rupa Lodge</h3>
+                <p>Affordable rooms for travelers.</p>
+                <button>Book Now</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85">
+            <div class="card-content">
+                <h3>Traveler Inn</h3>
+                <p>Budget-friendly clean stay option.</p>
+                <button>Book Now</button>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Rupa Tourism | Explore the Beauty of Rupa</p>
+</footer>
+
+</body>
+</html>
